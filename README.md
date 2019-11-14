@@ -28,13 +28,13 @@ git clone https://github.com/paulvid/cdp_create_dh_de_aws.git
 ### 2. Create Data Hub Cluster
 
 ```
-cdp_describe_dh_de.sh <prefix> 
+cdp_create_dh_de.sh <prefix> 
 ```
 
 ### 3. Verify periodically until cluster status is AVAILABLE
 
 ```
-cdp_create_dh_de.sh <prefix> 
+cdp_describe_dh_de.sh <prefix> 
 ```
 
 
